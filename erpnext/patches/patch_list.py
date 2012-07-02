@@ -457,4 +457,14 @@ patch_list = [
 		'patch_file': 'delete_about_contact',
 		'description': "delete depracated doctypes of website module"
 	},
+	{
+		'patch_module': 'patches.june_2012',
+		'patch_file': 'cache_item_table',
+		'description': "create cache item table again"
+	},
+	{
+		'patch_module': 'patches.july_2012',
+		'patch_file': 'reload_pr_po_mapper',
+		'description': "order date should be greater than equal to request date"
+	},
 ]

@@ -128,6 +128,16 @@ wn.module_page["Accounts"] = [
 		icon: "icon-table",
 		items: [
 			{
+				"label":wn._("Customer Account Head"),
+				route: "query-report/Customer Account Head",
+				doctype: "Account"
+			},
+			{
+				"label":wn._("Supplier Account Head"),
+				route: "query-report/Supplier Account Head",
+				doctype: "Account"
+			},
+			{
 				"label":wn._("General Ledger"),
 				page: "general-ledger"
 			},
@@ -198,9 +208,19 @@ wn.module_page["Accounts"] = [
 				doctype: "Sales Invoice"
 			},
 			{
+				"label":wn._("Received Items To Be Billed"),
+				route: "query-report/Received Items To Be Billed",
+				doctype: "Purchase Invoice"
+			},
+			{
 				"label":wn._("Ordered Items To Be Billed"),
 				route: "query-report/Ordered Items To Be Billed",
 				doctype: "Sales Invoice"
+			},
+			{
+				"label":wn._("Purchase Order Items To Be Billed"),
+				route: "query-report/Purchase Order Items To Be Billed",
+				doctype: "Purchase Invoice"
 			},
 			{
 				"label":wn._("Bank Clearance Summary"),
@@ -221,6 +241,21 @@ wn.module_page["Accounts"] = [
 				"label":wn._("Sales Partners Commission"),
 				route: "query-report/Sales Partners Commission",
 				doctype: "Sales Invoice"
+			},
+			{
+				"label":wn._("Customer Account Head"),
+				route: "query-report/Customer Account Head",
+				doctype: "Account"
+			},
+			{
+				"label":wn._("Item-wise Sales Register"),
+				route: "query-report/Item-wise Sales Register",
+				doctype: "Sales Invoice"
+			},
+			{
+				"label":wn._("Item-wise Purchase Register"),
+				route: "query-report/Item-wise Purchase Register",
+				doctype: "Purchase Invoice"
 			},
 		]
 	}
